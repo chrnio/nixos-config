@@ -58,6 +58,6 @@
     brave
     spotify
     mpv
-    
+    pavucontrol
   ];
 }
