@@ -50,6 +50,12 @@
     adwaita-icon-theme
     bluetui
     bibata-cursors
+
+    nautilus
+    papers
+    loupe
+    papers
+    gnome-clocks
   ];
 
   environment.sessionVariables = {
