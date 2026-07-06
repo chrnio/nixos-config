@@ -57,5 +57,7 @@
     fractal
     brave
     spotify
+    mpv
+    
   ];
 }
