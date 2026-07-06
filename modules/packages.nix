@@ -35,27 +35,27 @@
     unrar
 
     # media and docs
-    # ffmpeg
-    # pandoc
-    # poppler
+    ffmpeg
+    pandoc
+    poppler
 
     # editors
     neovim
-    # tree-sitter
-    # zed-editor
-    #
-    # # emacs
-    # emacs-pgtk
-    # aspell
-    # aspellDicts.en
-    # libtool
-    #
-    # # apps
-    # proton-pass
-    # obsidian
-    # discord
-    # fractal
-    # brave
-    # spotify
+    tree-sitter
+    zed-editor
+    
+    # emacs
+    emacs-pgtk
+    aspell
+    aspellDicts.en
+    libtool
+    
+    # apps
+    proton-pass
+    obsidian
+    discord
+    fractal
+    brave
+    spotify
   ];
 }
