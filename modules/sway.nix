@@ -10,7 +10,7 @@
     enable = true;
     settings = {
       default_session = {
-        command = "${pkgs.tuigreet}/bin/tuigreet --cmd sway";
+        command = "${pkgs.tuigreet}/bin/tuigreet --remember --cmd sway";
         user = "greeter";
       };
     };
