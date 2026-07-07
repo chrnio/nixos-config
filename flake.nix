@@ -9,12 +9,12 @@
     nixosConfigurations = {
 	    desktop = nixpkgs.lib.nixosSystem {
 	      system = "x86_64-linux";
-	      modules = [ ./hosts/desktop/ ];
+	      modules = [ ./hosts/desktop ];
 	    };
 
 	    laptop = nixpkgs.lib.nixosSystem {
 	      system = "x86_64-linux";
-	      modules = [ ./hosts/laptop/ ];
+	      modules = [ ./hosts/laptop ];
 	    };
     };
   };
