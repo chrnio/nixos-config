@@ -54,10 +54,18 @@
     proton-pass
     obsidian
     discord
-    fractal
     brave
     spotify
     mpv
     pavucontrol
+
+    # gnome apps (that i love to use)
+    nautilus
+    papers
+    loupe
+    papers
+    gnome-clocks
+    fractal
+
   ];
 }
