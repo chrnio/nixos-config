@@ -18,8 +18,9 @@
 
   security.polkit.enable = true;
   services.gnome.gnome-keyring.enable = true;
-  hardware.graphics.enable = true;
   security.pam.services.swaylock = { };
+  programs.seahorse.enable = true;
+  hardware.graphics.enable = true;
   programs.dconf.enable = true;
 
   xdg.portal = {

@@ -29,35 +29,35 @@
     xdg-user-dirs
     glib
 
-    # archives
-    zip
-    unzip
-    unrar
-
-    # media and docs
-    ffmpeg
-    pandoc
-    poppler
+    # # archives
+    # zip
+    # unzip
+    # unrar
+    #
+    # # media and docs
+    # ffmpeg
+    # pandoc
+    # poppler
 
     # editors
     neovim
-    tree-sitter
-    zed-editor
-    
-    # emacs
-    emacs-pgtk
-    aspell
-    aspellDicts.en
-    libtool
-    
-    # apps
-    proton-pass
-    obsidian
-    discord
-    fractal
-    brave
-    spotify
-    mpv
-    pavucontrol
+    # tree-sitter
+    # zed-editor
+    #
+    # # emacs
+    # emacs-pgtk
+    # aspell
+    # aspellDicts.en
+    # libtool
+    #
+    # # apps
+    # proton-pass
+    # obsidian
+    # discord
+    # fractal
+    # brave
+    # spotify
+    # mpv
+    # pavucontrol
   ];
 }
