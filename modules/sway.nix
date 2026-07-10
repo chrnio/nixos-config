@@ -56,6 +56,8 @@
     pavucontrol
    
     # GNOME Apps
+    xdg-user-dirs
+    glib
     nautilus
     papers
     loupe
