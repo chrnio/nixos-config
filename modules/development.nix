@@ -41,8 +41,12 @@
     bash-language-server
     shellcheck
 
+    # LaTeX
+    texliveFull
+
     # misc lsp and tooling
     nixd
+    nil
     taplo
     yaml-language-server
     marksman
