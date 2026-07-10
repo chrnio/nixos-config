@@ -26,8 +26,6 @@
     yq
     aria2
     httpie
-    xdg-user-dirs
-    glib
 
     # archives
     zip
