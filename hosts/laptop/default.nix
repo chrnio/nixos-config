@@ -6,14 +6,14 @@
     ../../modules/networking.nix
     ../../modules/audio.nix
     ../../modules/bluetooth.nix
-    ../../modules/sway.nix
+    ../../modules/gnome.nix
     ../../modules/fonts.nix
     ../../modules/users.nix
     ../../modules/packages.nix
-    ../../modules/development.nix
+   # ../../modules/development.nix
   ];
 
-  networking.hostName = "voyager";
+  networking.hostName = "nixos";
 
   time.timeZone = "Asia/Kolkata";
   i18n.defaultLocale = "en_US.UTF-8";
@@ -30,6 +30,7 @@
   };
 
   nixpkgs.config.allowUnfree = true;
+
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   system.stateVersion = "26.05";
