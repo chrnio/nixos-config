@@ -52,7 +52,9 @@
     adwaita-icon-theme
     bluetui
     bibata-cursors
-    
+    mpv
+    pavucontrol
+   
     # GNOME Apps
     nautilus
     papers
