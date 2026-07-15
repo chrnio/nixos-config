@@ -7,12 +7,23 @@
   };
 
   services.greetd = {
-    enable = true;
+    enable = false;
     settings = {
       default_session = {
         command = "${pkgs.tuigreet}/bin/tuigreet --remember --cmd sway";
         user = "greeter";
       };
+    };
+  };
+
+  services.displayManager.ly = {
+    enable = true;
+    settings = {
+      animation = "matrix";
+      animation_frame_delay = 40;   # Very chill speed
+      hide_borders = true;
+      hide_key_hints = true;
+      clock = "%H:%M";
     };
   };
 
