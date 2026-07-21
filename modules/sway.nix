@@ -50,6 +50,7 @@
     swaybg
     swayidle
     swaylock
+    i3status
     waybar
     foot
     rofi

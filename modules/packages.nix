@@ -23,10 +23,7 @@
     tmux
     nh
     jq
-    yq
-    aria2
-    httpie
-
+ 
     # archives
     zip
     unzip
@@ -36,11 +33,11 @@
     ffmpeg
 
     # editors
-    neovim
-    tree-sitter
+    helix
     zed-editor
 
     # apps
+    kitty
     proton-pass
     obsidian
     discord
